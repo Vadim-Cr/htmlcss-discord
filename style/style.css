@@ -84,6 +84,8 @@ h1{
 .container{
     display: flex;
     padding: 30px 0 30px 0;
+    width: 80%;
+    margin: auto;
 }
 .container-row-reverse{
     display: flex;
@@ -92,15 +94,24 @@ h1{
     background-color: rgb(150, 187, 175);
 }
 .image{
-
     margin: auto;
-    height: 250px;
-    width: 250px;
-    background-color: deeppink;
 }
 .text{
     width: 35%;
     margin: auto;
+
+}
+h2{
+    font-size: 45px;
+    text-align:start;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 20px;
+    font-weight: 520;
+    text-align: left;
+    line-height: 2em;
+    
 }
     /* regole per il container in colonna */
 .container-column{
@@ -171,12 +182,9 @@ hr{
     width: 80%;
     margin: auto;
     padding: 10px;
-
 }
 
 /* debug */
-
-
 
 /* header{
     min-height: 450px;
@@ -185,14 +193,13 @@ hr{
     background-repeat: no-repeat;
     background-size:  100% 100%;;
 } */
-
-nav{
-    /* min-height: 50px; */
-    /* background-color: chocolate; */
-}
-main{
+/* nav{
+    min-height: 50px;
+    background-color: chocolate;
+} */
+/* main{
     background-color: rgb(31, 130, 53);
-}
-.container{
+} */
+/* .container{
     background-color: burlywood;
-}
+} */
