@@ -1,0 +1,177 @@
+/* regole generali */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+}
+/* regole header */
+
+header{
+    min-height: 450px;
+    background-image: url(/img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size:  100% 100%;;
+}
+
+/* logo su nav */
+.logo{
+
+}
+/* header parte navbar - jumbotron */
+nav{
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation-bar{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3em;
+}
+/* header parte 2 Titolo e testo e i due "buttons" */
+
+.head-section{
+    text-align: center;
+}
+
+h1{
+    margin-top: 70PX;
+    font-size: 30PX;
+    color: white;
+}
+
+.p-header{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    margin: 30px auto 15px  ;
+}
+
+/* main */
+
+    /* I sezione con immagine + testo */
+        /* regole per i container divisi a metà */
+.container{
+    display: flex;
+    padding: 30px 0 30px 0;
+}
+.container-row-reverse{
+    display: flex;
+    padding: 30px 0 30px 0;
+    flex-direction: row-reverse;
+    background-color: rgb(150, 187, 175);
+}
+.image{
+
+    margin: auto;
+    height: 250px;
+    width: 250px;
+    background-color: deeppink;
+}
+.text{
+    width: 35%;
+    margin: auto;
+}
+    /* regole per il container in colonna */
+.container-column{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0 30px 0;
+}
+.text-column{
+   width: 80%;
+   margin: auto; 
+   text-align: center;
+}
+.image-column{
+    height: 400px;
+    width: 400px;
+    background-color: beige;
+    margin-top: 20px;
+}
+
+/* regole per il testo verso la fine */
+h3{
+    text-align: center;
+    padding: 30px;
+}
+#per-mac{
+display: flex;
+flex-direction: column;
+}
+#per-mac button{
+    width: 12%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 75px;
+}
+
+/* regole per il footer */
+footer{
+    background-color: darkslategrey;
+}
+
+#container-footer{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#container-footer ul{
+list-style-type: none;
+height: 150px;
+width: 150px;
+background-color: aliceblue;
+}
+
+/* regole "br", logo sotto e tasto sotto */
+hr{
+    border: 2px solid gray;
+    width: 80%;
+    margin: auto;
+}
+
+#last-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+
+}
+
+/* debug */
+
+
+
+/* header{
+    min-height: 450px;
+    background-color: rgb(9, 42, 125);
+    background-image: url(/img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size:  100% 100%;;
+} */
+
+nav{
+    /* min-height: 50px; */
+    /* background-color: chocolate; */
+}
+main{
+    background-color: rgb(31, 130, 53);
+}
+.container{
+    background-color: burlywood;
+}
