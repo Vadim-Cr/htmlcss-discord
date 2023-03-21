@@ -78,7 +78,10 @@ h1{
 }
 
 /* main */
-
+/* main{
+    background-color: #242729;
+    opacity: 0.1;
+} */
     /* I sezione con immagine + testo */
         /* regole per i container divisi a metà */
 .container{
@@ -86,13 +89,21 @@ h1{
     padding: 30px 0 30px 0;
     width: 80%;
     margin: auto;
+    background-color: white;
 }
 .container-row-reverse{
     display: flex;
     padding: 30px 0 30px 0;
     flex-direction: row-reverse;
-    background-color: rgb(150, 187, 175);
+    background-color: ;
 }
+
+#wave{
+    opacity: 0.1;
+    width: 100%;
+
+}
+    
 .image{
     margin: auto;
 }
@@ -121,16 +132,31 @@ p{
     justify-content: center;
     padding: 30px 0 30px 0;
 }
-.text-column{
-   width: 80%;
-   margin: auto; 
-   text-align: center;
+.text-column h2{
+    width: 80%;
+    margin: auto;
+    font-size: 45px;
+    text-align:center;
+    margin-bottom: 20px;
 }
-.image-column{
-    height: 400px;
-    width: 400px;
-    background-color: beige;
-    margin-top: 20px;
+.text-column p{
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 520;
+    text-align: center;
+    line-height: 2em;
+}
+/* ultima parte del main */
+#per-mac h3{
+    background-image: url(/img/stars.svg);
+    background-repeat: no-repeat;
+    background-size:  52% 52%;
+    background-position: center;
+}
+#per-mac button{
+    background-color: #7487D7;
+    color: white;
 }
 
 /* regole per il testo verso la fine */
