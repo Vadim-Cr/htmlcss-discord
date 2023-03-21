@@ -14,7 +14,7 @@ body{
 
 header{
     min-height: 450px;
-    background-image: url(/img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
     background-size:  100% 100%;;
 }
@@ -166,7 +166,7 @@ flex-direction: column;
 
 /* ultima parte del main */
 #per-mac h3{
-    background-image: url(/img/stars.svg);
+    background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-size:  52% 52%;
     background-position: center;
@@ -180,6 +180,7 @@ flex-direction: column;
 /* regole per il footer */
 footer{
     background-color: #23272A;
+    color: white;
 }
 
 #container-footer{
