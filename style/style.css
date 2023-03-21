@@ -95,7 +95,7 @@ h1{
     display: flex;
     padding: 30px 0 30px 0;
     flex-direction: row-reverse;
-    background-color: ;
+
 }
 
 #wave{
@@ -180,7 +180,7 @@ flex-direction: column;
 /* regole per il footer */
 footer{
     background-color: #23272A;
-    color: white;
+
 }
 
 #container-footer{
@@ -190,7 +190,24 @@ footer{
     display: flex;
     justify-content: space-around;
 }
-
+ul{
+    color: #7587DB;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 35px;
+}
+#grande{
+    font-size: 30px;
+    width: 30%;
+}
+#flag{
+    width:20px;
+}
+li{
+    color: white;
+    font-size: 15px;
+}
 #container-footer ul{
 list-style-type: none;
 
@@ -198,9 +215,13 @@ list-style-type: none;
 
 /* regole "br", logo sotto e tasto sotto */
 hr{
-    border: 2px solid gray;
+    border: 1px solid gray;
     width: 80%;
     margin: auto;
+}
+#last{
+    background-color: #7487D7;
+    color: white;
 }
 
 #last-container{
