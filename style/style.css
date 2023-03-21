@@ -147,17 +147,6 @@ p{
     text-align: center;
     line-height: 2em;
 }
-/* ultima parte del main */
-#per-mac h3{
-    background-image: url(/img/stars.svg);
-    background-repeat: no-repeat;
-    background-size:  52% 52%;
-    background-position: center;
-}
-#per-mac button{
-    background-color: #7487D7;
-    color: white;
-}
 
 /* regole per il testo verso la fine */
 h3{
@@ -175,9 +164,22 @@ flex-direction: column;
     margin-bottom: 75px;
 }
 
+/* ultima parte del main */
+#per-mac h3{
+    background-image: url(/img/stars.svg);
+    background-repeat: no-repeat;
+    background-size:  52% 52%;
+    background-position: center;
+}
+#per-mac button{
+    background-color: #7487D7;
+    color: white;
+}
+
+
 /* regole per il footer */
 footer{
-    background-color: darkslategrey;
+    background-color: #23272A;
 }
 
 #container-footer{
@@ -190,9 +192,7 @@ footer{
 
 #container-footer ul{
 list-style-type: none;
-height: 150px;
-width: 150px;
-background-color: aliceblue;
+
 }
 
 /* regole "br", logo sotto e tasto sotto */
