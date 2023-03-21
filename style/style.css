@@ -8,6 +8,7 @@
 body{
     width: 80%;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* regole header */
 
@@ -26,7 +27,7 @@ header{
 nav{
     display: flex;  
     justify-content: space-around;
-    align-items: center;
+    align-items: center;padding-top: 15px;
 }
 
 .navigation-bar{
@@ -35,7 +36,27 @@ nav{
     justify-content: space-around;
     align-items: center;
     gap: 3em;
+    color: rgba(255, 255, 255, 0.829);
+    font-size: 16px;
 }
+/* il button del navigation-bar */
+
+button{
+    background-color: white;
+    color: black;
+    border-radius: 18px;
+    padding: 10px 15px;
+    border: none;
+    font-weight: 500;
+}
+i{
+    font-size: 15px;
+}
+#dark{
+    background-color: #242729;
+    color: white;
+}
+
 /* header parte 2 Titolo e testo e i due "buttons" */
 
 .head-section{
@@ -51,7 +72,7 @@ h1{
 .p-header{
     margin-top: 20px;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     width: 50%;
     margin: 30px auto 15px  ;
 }
